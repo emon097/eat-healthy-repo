@@ -1,11 +1,12 @@
 body{ font-family: 'Poppins', sans-serif; margin: 0%; }
 span{color: coral; }
-.about-me{ display: flex;
-        background-color: antiquewhite;
-      }
+section{ display: flex;
+       margin-bottom: 80px;
+       }
 .half-width{width: 50%;
        height: 20%;
        padding-left: 5%;
+       
        }
 .half-width img{width: 80%;
   }
@@ -16,3 +17,10 @@ span{color: coral; }
                       padding: 10px 15px;
                       border-radius: 16px;
                      }
+
+.top-banner{ background-color: antiquewhite; }
+ .middle-side {
+              background-image: url(images/shapes/7.png);
+              background-repeat: no-repeat;
+              } 
+                                
