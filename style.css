@@ -1,0 +1,18 @@
+body{ font-family: 'Poppins', sans-serif; margin: 0%; }
+span{color: coral; }
+.about-me{ display: flex;
+        background-color: antiquewhite;
+      }
+.half-width{width: 50%;
+       height: 20%;
+       padding-left: 5%;
+       }
+.half-width img{width: 80%;
+  }
+  .link-justification{
+                      text-decoration: none;
+                      color: rgb(255, 255, 255);
+                      background-color: rgb(50, 37, 37);
+                      padding: 10px 15px;
+                      border-radius: 16px;
+                     }
