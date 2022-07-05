@@ -1,11 +1,13 @@
+*{ margin: 0; padding: 0; }
 body{ font-family: 'Poppins', sans-serif; margin: 0%; }
-span{color: coral; }
-section{ display: flex;
-       margin-bottom: 80px;
-       }
+.coral-color{color: coral; }
+.flexible-part{ display: flex;
+       margin-bottom: 85px;
+           }
 .half-width{width: 50%;
        height: 20%;
-       padding-left: 5%;
+       padding-left: 7%;
+       padding-bottom: 5%;
        
        }
 .half-width img{width: 80%;
@@ -20,7 +22,38 @@ section{ display: flex;
 
 .top-banner{ background-color: antiquewhite; }
  .middle-side {
-              background-image: url(images/shapes/7.png);
+              background-image:url(images/shapes/7.png);
               background-repeat: no-repeat;
               } 
-                                
+.my-recipies { text-align: center;
+               
+              } 
+              
+.my-reipies2{
+     width: 90%;
+     text-align: center;
+     border-radius: 7% ;
+     box-shadow: 12px 12px 50px rgb(153, 145, 145);
+     margin-left: 6%;
+     margin-right: 4%;
+     }
+ 
+ div img {width: 300px;
+          
+         padding-top: 6%;   
+       }
+ .flexible-part2{ display: flex;
+padding: 5%; }
+.fourth-part { display: flex; 
+            justify-content: space-around;
+             box-shadow: 10px 10px 25px rgb(178, 106, 106); 
+             width: 85%;
+             font-size: 20px;
+             margin: 0 auto;
+             border-radius: 20px;
+             margin-bottom: 80px;
+}
+.fifth-part {  
+       text-align: center;
+       background-color: rgb(109, 100, 31);200px
+}
